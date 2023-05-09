@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/transaction_id_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID: 12345"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/recipient_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipient: John Doe"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/transaction_status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction Status: Completed"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/date_sent_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Sent: May 8, 2023"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/you_sent_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Sent: $100.00 USD"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/exchange_rate_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exchange Rate: 1.0"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/they_received_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="They Received: $100.00 USD"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/total_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $100.00 USD"
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/download_receipt_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Receipt"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Share with Recipient" />
+
+</LinearLayout>
